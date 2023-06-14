@@ -1,0 +1,55 @@
+.container {
+    background-color: #E1F4FA;
+    width: 300px !important;
+    font-family: 'roboto';
+}
+
+.log-in {
+    font-style: italic;
+    color: #73787D;
+}
+
+.input {
+    border-radius: 4px;
+    border: 2px outset #ccc;
+    background-color: #F0EFF4;
+}
+
+.text-login-password {
+    font-size: 13px;
+}
+
+.form-row label {
+    width: 50px;
+    display: inline-block;
+}
+
+.remember-me {
+    font-size: 13px;
+    width: 125px;
+    display: inline-block;
+}
+
+.sign-in {
+    font-family: 'roboto';
+    color: white;
+    font-size: 15px;
+    background-color: #289475;
+    border-radius: 4px;
+    border: 2px outset #9BB6B7;
+    width: 70px;
+    height: 25px;
+}
+
+.remind-password {
+    font-size: 13px;
+}
+
+.space {
+    width: 200px;
+}
+
+.place-to-end {
+    position: relative;
+    left: 110px;
+}

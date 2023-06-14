@@ -1,0 +1,48 @@
+body {
+    background-color: #E7E5E6;
+}
+
+.container {
+    background-color: #FFFFFF;
+    width: 270px !important;
+    font-family: 'roboto';
+}
+
+.sign-in {
+    text-transform: uppercase;
+}
+
+.login-password {
+    border-radius: 0;
+    border: 1px solid gray;
+    height: 30px;
+    width: 200px;
+}
+
+.icon {
+    border: 1px solid gray;
+    padding: 6px;
+}
+
+.btn-sign-in {
+    text-transform: uppercase;
+    font-family: 'roboto';
+    background-color: #22B8C7;
+    color: #FFFFFE;
+    width: 237px;
+    text-align: center;
+    border-radius: 5px;
+    height: 40px;
+    border: none;
+    font-weight: bold;
+}
+
+.text-member {
+    font-size: 13px;
+    color: #8798A0;
+}
+
+.link-to-sign {
+    text-decoration: none;
+    color: black;
+}

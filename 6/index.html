@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+    <title>Control work 1</title>
+</head>
+<body>
+<!-- First Part. Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-bg">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-uppercase">
+              <li class="nav-item ">
+                <a class="nav-link  navbar-text-style" href="#">Employers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  navbar-text-style" href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  navbar-text-style" href="#">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  navbar-text-style" href="#">team</a>
+              </li>
+            </ul>
+              <button class="btn btn-success" id="open-modal-btn">
+                Login
+            </button>
+            <div class="my-modal" id="modal-window">
+              <div class="form-row">
+                <label for="login" class="text-login-password">Login:</label>
+                <input type="text" id="login" class="input">
+            </div>
+
+            <div class="form-row mb-3">
+                <label for="password" class="text-login-password">Password:</label>
+                <input type="password" id="password" class="input">
+            </div>
+
+            <div>
+                <p>
+                    <input type="checkbox" name="check" id="check">
+                    <label for="check">
+                        <span class="remember-me">Remember</span>
+                    </label>
+                    <button type="submit" class="sign-in">Enter</button>
+                </p>
+            </div>
+    
+                <button class="btn btn-danger" id="close-modal-btn">
+                    Close
+                </button>
+          </div>
+        </div>
+      </nav>
+<!-- Second Part. Slider -->
+      <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active carousel-indicator-as-circle" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="carousel-indicator-as-circle" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="carousel-indicator-as-circle" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./img/slider-pic.jpg" class="d-block w-100" alt="slider-pic">
+      <div class="carousel-caption d-none d-md-block container-slider">
+        <h1 class="text-in-slider text-uppercase"><span class="green-text-in-slider">Where will</span> great work <span class="green-text-in-slider">take you?</span></h1>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./img/slider-pic.jpg" class="d-block w-100" alt="slider-pic">
+      <div class="carousel-caption d-none d-md-block  container-slider">
+        <h1 class="text-in-slider text-uppercase"><span class="green-text-in-slider">Where will</span> great work <span class="green-text-in-slider">take you?</span></h1>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./img/slider-pic.jpg" class="d-block w-100" alt="slider-pic">
+      <div class="carousel-caption d-none d-md-block  container-slider">
+        <h1 class="text-in-slider text-uppercase"><span class="green-text-in-slider">Where will</span> great work <span class="green-text-in-slider">take you?</span></h1>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+    </div>
+<!-- Third Part. Block under slider -->
+    <div class="bg-under-slider py-5">
+        <div class="container container-under-slider text-center py-5">
+            <h1 class="text-in-slider text-uppercase">We give <span class="green-text-in-slider">best services</span></h1>
+            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non providen</p>
+        </div>
+        
+        <div class="container text-center">
+            <div class="row py-4">
+                <div class="col-12 col-lg-6 col-xl-3">
+                    <div class="card border-0 card-background d-block">
+                        <img src="./img/ic-1.png" class="card-img-top img-style" alt="ic-1">
+                        <div class="card-body">
+                          <h5 class="card-title text-uppercase item-header">new way of vision</h5>
+                          <p class="card-text card-text-style">
+                            Temporibus autem guibusdam et aut
+                            officiis debitis aut rerum necessitatibus
+                            saepe eveniet ut et voluptates</p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-12 col-lg-6 col-xl-3">
+                    <div class="card border-0 card-background d-block">
+                        <img src="./img/ic-2.png" class="card-img-top img-style img-style" alt="ic-2">
+                        <div class="card-body">
+                          <h5 class="card-title text-uppercase item-header">fresh ideas</h5>
+                          <p class="card-text card-text-style">
+                            Itaque earum rerum hic tenetur a
+                            sapiente delectus, ut aut reiciendis
+                            voluptatibus maiores alias</p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-12 col-lg-6 col-xl-3">
+                    <div class="card border-0 card-background d-block">
+                        <img src="./img/ic-3.png" class="card-img-top img-style" alt="ic-3">
+                        <div class="card-body">
+                          <h5 class="card-title text-uppercase item-header">strong foundations</h5>
+                          <p class="card-text card-text-style">
+                            Temporibus autem guibusdam et aut
+                            officiis debitis aut rerum necessitatibus
+                            saepe evennet</p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-12 col-lg-6 col-xl-3">
+                    <div class="card border-0 card-background d-block">
+                        <img src="./img/ic-4.png" class="card-img-top img-style" alt="ic-4">
+                        <div class="card-body">
+                          <h5 class="card-title text-uppercase item-header">great support</h5>
+                          <p class="card-text card-text-style">
+                            Itaque earum rerum hic tenetur a
+                            sapiente delectus, ut aut reiciendis
+                            voluptatibus maiores</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Fourth Part. Find The Perfect Match Fast -->
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-12 col-xl-6 d-flex justify-content-center">
+                <img src="./img/pic-big-1.png" alt="pic-big-1">
+            </div>
+
+            <div class="col-12 col-xl-6">
+                <h1 class="headings-of-section-below text-uppercase my-5">
+                    find <span class="green-text-in-slider">the perfect</span> match fast
+                </h1>
+                <p class="texts-of-section-below">
+                    Start your job in hours, not weeks. Get a shortlist of skilled freelancers 
+                    instantly, tapping into our hiring know-how and matching technology.
+                    Interview favorites online and hire with the click of a button.
+                </p>
+            </div>
+        </div>
+    </div>
+<!-- Fifth Part. Great Work Starts With Great Talent -->
+    <div class="bg-under-slider">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 col-xl-6">
+                    <h1 class="headings-of-section-below text-uppercase my-5">
+                        great <span class="green-text-in-slider">work starts</span> with great talent
+                    </h1>
+                    <ul>
+                        <li>Get amazing results working the best programmers</li>
+                        <li>Designers, writers and other top online pros</li>
+                        <li>Hire feelancers with confidence, always knowing</li>
+                        <li>Their work experience and feedback from other clients</li>
+                        <li>Designers, writers and other top online pros .</li>
+                    </ul>
+                </div>
+    
+                <div class="col-12 col-xl-6 my-5 d-flex justify-content-end">
+                    <img src="./img/pic-big-2.png" alt="pic-big-2">                
+                </div>
+            </div>
+        </div>    
+    </div>
+<!-- Sixth Part. Recent Work Done on Job Board -->
+    <div class="container">
+      <h1 class="headings-of-section-below text-center text-uppercase my-5 pt-5">
+        recent work done on <span class="green-text-in-slider">job board</span>
+      </h1>
+
+      <div class="row pt-5">
+        <div class="col-12 col-lg-6 col-xl-3">
+          <div class="card mb-3">
+            <img src="./img/pic-1.jpg" class="card-img-top" alt="pic-1">
+            <div class="card-body text-center text-uppercase">
+              <a href="#" class="btn btn-color-blue text-colored-btns mb-3">graphics</a>
+              <h5 class="card-title text-job-blocks">Round Icons Design</h5>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-lg-6 col-xl-3">
+          <div class="card mb-3">
+            <img src="./img/pic-2.jpg" class="card-img-top" alt="pic-2">
+            <div class="card-body text-center text-uppercase">
+              <a href="#" class="btn btn-color-green text-colored-btns mb-3">graphics</a>
+              <h5 class="card-title text-job-blocks">Stationary Design</h5>
+            </div>
+          </div>  
+        </div>
+
+        <div class="col-12 col-lg-6 col-xl-3">
+          <div class="card mb-3">
+            <img src="./img/pic-3.jpg" class="card-img-top" alt="pic-3">
+            <div class="card-body text-center text-uppercase">
+              <a href="#" class="btn btn-color-purple text-colored-btns mb-3">graphics</a>
+              <h5 class="card-title text-job-blocks">Logo Design</h5>
+            </div>
+          </div>  
+        </div>
+        
+        <div class="col-12 col-lg-6 col-xl-3">
+          <div class="card mb-3">
+            <img src="./img/pic-4.jpg" class="card-img-top" alt="pic-4">
+            <div class="card-body text-center text-uppercase">
+              <a href="#" class="btn btn-color-yellow text-colored-btns mb-3">graphics</a>
+              <h5 class="card-title text-job-blocks">Branding</h5>
+            </div>
+          </div>  
+        </div>
+        
+        <div class="col-12 col-lg-6 col-xl-3">
+          <div class="card mt-3">
+            <img src="./img/pic-5.jpg" class="card-img-top" alt="pic-5">
+            <div class="card-body text-center text-uppercase">
+              <a href="#" class="btn btn-color-green text-colored-btns mb-3">graphics</a>
+              <h5 class="card-title text-job-blocks">Visiting Card Design</h5>
+            </div>
+          </div>  
+        </div>
+        
+        <div class="col-12 col-lg-6 col-xl-3">
+          <div class="card mt-3">
+            <img src="./img/pic-6.jpg" class="card-img-top" alt="pic-6">
+            <div class="card-body text-center text-uppercase">
+              <a href="#" class="btn btn-color-yellow text-colored-btns mb-3">graphics</a>
+              <h5 class="card-title text-job-blocks">Brochure Design</h5>
+            </div>
+          </div>  
+        </div>
+        
+        <div class="col-12 col-lg-6 col-xl-3">
+          <div class="card mt-3">
+            <img src="./img/pic-7.jpg" class="card-img-top" alt="pic-7">
+            <div class="card-body text-center text-uppercase">
+              <a href="#" class="btn btn-color-blue text-colored-btns mb-3">graphics</a>
+              <h5 class="card-title text-job-blocks">Branding</h5>
+            </div>
+          </div>  
+        </div>
+        
+        <div class="col-12 col-lg-6 col-xl-3">
+          <div class="card mt-3 mb-5">
+            <img src="./img/pic-8.jpg" class="card-img-top" alt="pic-8">
+            <div class="card-body text-center text-uppercase">
+              <a href="#" class="btn btn-color-purple text-colored-btns mb-3">graphics</a>
+              <h5 class="card-title text-job-blocks">Stationary Design</h5>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </div>
+<!-- Seventh Part. Footer -->
+  <footer class="footer mt-5">
+    <div class="container py-5">
+      <p class="footer-text text-uppercase">
+        © 2015 JOB BOARD Landing Page By Mike Taylor
+      </p>
+    </div>
+  </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js" integrity="sha512-EKWWs1ZcA2ZY9lbLISPz8aGR2+L7JVYqBAYTq5AXgBkSjRSuQEGqWx8R1zAX16KdXPaCjOCaKE8MCpU0wcHlHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

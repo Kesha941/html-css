@@ -1,0 +1,136 @@
+body {
+    color: #4f4d6a !important;
+}
+
+.container {
+    max-width: 70% !important;
+}
+
+.navbar-text {
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 12px;
+    color: #4f4d6a !important;
+}
+
+.text-in-promo {
+    top: 1.5rem;
+}
+
+.text-we-are {
+    font-family: 'Georgia';
+    font-style: italic;
+    font-size: 24px;
+    color: #4f4d6a ;
+}
+
+.text-studio-banx {
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 125px;
+    color: #4f4d6a;
+}
+
+.text-a-creative {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 18px;
+    color: #4f4d6a;
+    border-bottom: 1px solid #fff;
+}
+
+.btns-promo {
+    font-family: Georgia;
+    font-style: italic;
+    font-size: 18px !important;
+    color:#fff !important;
+    border-radius: 50px !important;
+    width: 200px !important;
+}
+
+.btn-see-our-work {
+    background: linear-gradient(#6d6b89, #504e6b);
+    border: 2px solid #4f4d6a !important;
+}
+
+.btn-meet-the-team {
+    background: linear-gradient(#cdbec7, #9e8596);
+    border: 2px solid #937d91 !important;
+}
+
+
+.our-worx-background {
+    background-color: #ebebeb;
+}
+
+.text-check-out {
+    font-family: 'Georgia';
+    font-style: italic;
+    font-size: 24px;
+    color: #4f4d6a ;
+}
+
+.text-our-worx {
+    font-family: 'Georgia';
+    font-weight: bold;
+    font-size: 72px;
+    color: #4f4d6a;
+}
+
+.img-border {
+    border: 20px solid #efefef !important;
+}
+
+.column-headings {
+    font-family: 'Georgia';
+    font-style: italic;
+    font-size: 22px;
+    color: #4f4d6a;
+}
+
+.column-texts {
+    font-family: 'Georgia';
+    font-style: italic;
+    font-size: 12px;
+    color: #4f4d6a;
+}
+
+.card-background {
+    background: none !important;
+}
+
+.text-what-makes-awesome {
+    font-family: 'Georgia';
+    font-style: italic;
+    font-size: 24px;
+    color: #4f4d6a ;
+}
+
+.btn-view-more {
+    font-family: 'Georgia';
+    font-weight: bold;
+    font-style: italic;
+    font-size: 12px;
+    color: #fff !important;
+}
+
+.btn-view-more-bg {
+    background-color: #4f4d6a !important;
+    border-color: none !important;
+}
+
+.footer {
+    background-color: #505050;
+    color: #fff;
+}
+
+.footer-heading {
+    font-family: 'Georgia';
+    font-style: italic;
+    font-size: 24px;
+}
+
+.footer-text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
